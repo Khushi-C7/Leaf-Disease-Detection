@@ -146,18 +146,13 @@ Early stopping patience: 3
 📊 Evaluation Metrics
 
 
-Accuracy
+1.Accuracy
 
+2.Confusion Matrix
 
-Confusion Matrix
+3.Class-wise accuracy
 
-
-Class-wise accuracy
-
-
-ROC-AUC curves
-
-
+4.ROC-AUC curves
 
 🔍 Visualizations Included
 
@@ -191,8 +186,7 @@ Which parts of the leaf image the model focuses on
 Whether the model is actually learning disease patterns or just noise
 
 
-
-📌 Results (What Actually Matters)
+📌 Results 
 
 
 Model achieves strong classification performance on test data
@@ -202,29 +196,6 @@ Visualizations confirm meaningful feature learning
 
 
 Grad-CAM shows attention on infected regions (not random areas)
-
-
-
-⚠️ Limitations (Don’t Ignore This)
-
-
-Small dataset → risk of overfitting
-
-
-ViT is data-hungry → performance depends heavily on dataset size
-
-
-Real-world deployment needs:
-
-
-More diverse data
-
-
-Mobile optimization
-
-
-Robust preprocessing
-
 
 🎯 Why This Project Matters
 Agriculture is still heavily dependent on manual inspection.
@@ -238,17 +209,4 @@ Improve accuracy
 
 
 Enable early disease detection
-
-
-
-If you want, I can:
-
-
-Make this resume-ready (ATS optimized)
-
-
-Turn it into a GitHub project that actually stands out
-
-
-Or brutally review your project like a recruiter would (and fix weak points)
 
